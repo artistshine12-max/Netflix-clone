@@ -28,5 +28,38 @@ select{
   top: 0;
 }
 nav{ align-content: space-around;
+  justify-content: space-between;
   color: aliceblue;
+  padding-left: 30vw;
+  display: flex;
+  align-items: center;
+  max-width: 60vw;
+  height:62px;
+  margin:auto;
+padding-top: 20px;
+}
+nav img{
+  color: rgb(250, 8, 8);
+  width:114px;
+  position: relative;
+  z-index: 10;
+
+}
+nav button{
+  position: relative;
+  z-index: 10;
+}
+div1 button{
+  background-color: red;
+  border: solid red 11px;
+  font-size: 15px;
+  border-radius: 3px;
+  color:white;
+  font-weight: 650;
+
+}
+div2 button{
+  background-color:black;
+  
+
 }
