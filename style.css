@@ -10,6 +10,7 @@
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
+  
 }
 
 select{
@@ -26,6 +27,7 @@ select{
   background-color: black;
   position: absolute;
   top: 0;
+  
 }
 nav{ align-content: space-around;
   justify-content: space-between;
@@ -58,8 +60,31 @@ div1 button{
   font-weight: 650;
 
 }
-div2 button{
+div2 select{
   background-color:black;
   
+color: white;
+font-size: 18px ;
+font-weight: 300;
+height: 35px;
+width: 100px;
+border-radius: 9%;
+border:solid rgb(117, 115, 115) 1px;
 
+}
+.hero{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  z-index:400;
+  font-family: sans-serif;
+  font-size: larger;
+}
+.hero :first-child{
+font-size: 49px;
+font-weight: bolder;
 }
