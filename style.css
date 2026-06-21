@@ -2,6 +2,9 @@
     padding:0;
     margin:0;
 }
+body{
+  background-color: black;
+}
 .main {
     background-image: url("https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg");
     
@@ -127,4 +130,43 @@ width:160px;
   height:7px;
   background-color: rgb(67, 66, 66);
   
+}
+.first{
+  display:flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  background-color: rgb(2, 5, 37);
+  justify-content: center;
+  align-content: center;
+  border-radius: 8%;
+  padding: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border: solid rgb(76, 73, 73) 3px;
+}
+.secImg{
+  width: 30vw;
+}
+divA{
+  font-size: 48px;
+  font-weight: 600;
+  display: block;
+}
+span2{
+  
+  font-size: 24px;
+}
+.faq{
+  color:aliceblue;
+  text-align: center;
+  
+}
+.faq .faqbox span{
+  display:flex;
+  background-color: rgb(69, 64, 64);
+  color:white;
+  padding: 34px;
+  width: 100%;
 }
