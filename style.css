@@ -161,12 +161,53 @@ span2{
 .faq{
   color:aliceblue;
   text-align: center;
-  
+  font-family: sans-serif;
 }
 .faq .faqbox span{
   display:flex;
-  background-color: rgb(69, 64, 64);
+  background-color: rgb(39, 37, 37);
   color:white;
   padding: 34px;
   width: 100%;
+  margin: auto;
+  width: 70vw;;
+  font-size: 20px;
+}
+.faqbox :nth-child(){
+  border-radius: 2%;
+  border: solid rgb(40, 38, 38);
+  padding-left: 20px;
+}
+.sep2
+{
+  height: 7px;
+  background-color: black;
+}
+.sep3{
+  height: 20px;
+  background-color: black;
+  align-self: center;
+  justify-content: center;
+}
+.sep4{
+  height:80px;
+  background-color: black;
+  align-self: center;
+  justify-content: center;
+}
+divD{
+  color: white;
+  background-color: black;
+  padding-left: 70px;
+  font-family: sans-serif;
+  
+}
+divF{
+  color: white;
+  background-color: black;
+display: flex;
+  font-family: sans-serif; padding-left: 70px;
+}
+divG{
+  padding-left: 400px;
 }
